@@ -1,0 +1,106 @@
+<svg width="100%" min-height="0" viewBox="0 0 425 518" fill="none"
+    xmlns="http://www.w3.org/2000/svg">
+    <g id="Refund SVG">
+        <g id="bill">
+            <path id="Vector" d="M100.068 105.49H329.865V264.672H100.068V105.49Z" fill="#526273" />
+            <path id="dollar" d="M214.969 176.24C210.099 176.24 206.13 172.276 206.13 167.396C206.13 162.51 210.099 158.552 214.969 158.552C219.839 158.552 223.807 162.51 223.807 167.396H241.479C241.479 155.88 234.068 146.151 223.807 142.49V132.021H206.13V142.49C195.87 146.151 188.453 155.88 188.453 167.396C188.453 182.021 200.349 193.922 214.969 193.922C219.839 193.922 223.807 197.885 223.807 202.766C223.807 207.651 219.839 211.609 214.969 211.609C210.099 211.609 206.13 207.651 206.13 202.766H188.453C188.453 214.281 195.87 224.01 206.13 227.672V238.141H223.807V227.672C234.068 224.01 241.479 214.281 241.479 202.766C241.479 188.141 229.583 176.24 214.969 176.24Z" fill="#FFE38F" />
+        </g>
+        <g id="hand">
+            <path id="Vector_2" d="M422.641 363.63C417.797 351.339 404.505 344.531 391.729 347.802L259.812 402.162C262.578 397.885 263.667 392.531 262.339 387.182C260.016 377.828 251.099 371.698 241.568 372.891L117.375 406.167L64.5466 397.328V494.604H134.99L191.078 515.74C200.234 519.188 210.453 518.662 219.167 514.24L409.958 397.328C419.203 392.729 424.573 383.354 424.573 373.537C424.573 370.266 423.953 366.906 422.641 363.63Z" fill="#FFDBAC" />
+            <path id="Vector_3" d="M219.167 514.24L409.958 397.328C419.203 392.729 424.573 383.354 424.573 373.537C424.573 372.646 424.406 371.734 424.318 370.828C424.307 370.823 424.307 370.802 424.302 370.797C421.833 375.828 417.828 380.125 412.474 382.787L221.677 499.698C212.958 504.12 202.745 504.651 193.589 501.203L137.5 480.068H64.5466V494.604H134.99L191.078 515.74C200.234 519.188 210.443 518.662 219.167 514.24Z" fill="#EBCA9E" />
+            <path id="Vector_4" d="M183.016 423.797L186.073 432.698L260.917 401.5L183.016 423.797Z" fill="#EBCA9E" />
+        </g>
+
+        <path id="cuff" d="M11.6874 379.641H64.7187V512.292H11.6874V379.641Z" fill="#526273" />
+        <g id="sample">
+            <path id="arrow-line" d="M372.25 317.75C475.5 153.75 346 7.5 211 7.5C80.4999 7.5 -36 158 49.9999 316" stroke="#ADC4E6" stroke-width="14" />
+        </g>
+        <path id="arrow-head" d="M72.1202 272.767L1.92548 303.308L60.1718 336.66L72.1202 272.767Z" fill="#ADC4E6" />
+    </g>
+
+    <defs>
+        <style>
+#arrow-line {
+        stroke-dasharray: 851.4927368164062;
+        stroke-dashoffset: 851.4927368164062;
+        animation: arrowIn 3s linear infinite;
+      }
+
+      @keyframes arrowIn {
+        0% {
+          stroke-dashoffset: 851.4927368164062;
+        }
+
+        20%,
+        100% {
+          stroke-dashoffset: 0;
+        }
+      }
+
+      #arrow-head {
+        opacity: 0;
+        animation: headIn 3s linear infinite;
+      }
+
+      @keyframes headIn {
+        0%,
+        20% {
+          opacity: 0;
+        }
+
+        30%,
+        100% {
+          opacity: 1;
+        }
+      }
+
+      #bill {
+        transform-box: fill-box;
+        transform-origin: center;
+        animation: float 2s ease-in-out alternate infinite;
+      }
+
+      @keyframes float {
+        0% {
+          transform: translateY(-10px);
+        }
+
+        100% {
+          transform: translateY(10px);
+        }
+      }
+
+      #hand {
+        transform-box: fill-box;
+        transform-origin: left center;
+        animation: hand 2s ease-in-out alternate infinite;
+      }
+
+      @keyframes hand {
+        0% {
+          transform: rotate(0deg);
+        }
+
+        100% {
+          transform: rotate(2deg);
+        }
+      }
+
+      #cuff {
+        transform-box: fill-box;
+        transform-origin: center;
+        animation: cuff 2s ease-in-out alternate infinite;
+      }
+
+      @keyframes cuff {
+        0% {
+          transform: rotate(0deg);
+        }
+
+        100% {
+          transform: rotate(2deg);
+        }
+      }
+        </style>
+    </defs>
+</svg>
